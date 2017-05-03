@@ -26,6 +26,10 @@ export default class extends Phaser.State {
     this.game.add.existing(this.mushroom)
   }
 
+  update(){
+    //60 vegades per segon
+  }
+
   render () {
     if (__DEV__) {
       this.game.debug.spriteInfo(this.mushroom, 32, 32)
